@@ -1,0 +1,6 @@
+framework module phonepe_payment_sdk {
+  umbrella header "phonepe_payment_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

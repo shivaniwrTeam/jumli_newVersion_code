@@ -1,0 +1,64 @@
+{
+  "name": "stripe_ios",
+  "version": "0.0.1",
+  "summary": "A new flutter plugin project.",
+  "description": "A new flutter plugin project.",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Stripe": [
+      "~> 23.30.0"
+    ],
+    "StripePaymentSheet": [
+      "~> 23.30.0"
+    ],
+    "StripePayments": [
+      "~> 23.30.0"
+    ],
+    "StripePaymentsUI": [
+      "~> 23.30.0"
+    ],
+    "StripeApplePay": [
+      "~> 23.30.0"
+    ],
+    "StripeFinancialConnections": [
+      "~> 23.30.0"
+    ]
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "stripe_objc",
+      "source_files": "stripe_ios/Sources/**/*.{m,h}",
+      "public_header_files": "stripe_ios/Sources/stripe_objc/include/**/*.h"
+    },
+    {
+      "name": "stripe_ios",
+      "source_files": "stripe_ios/Sources/**/*.{swift}",
+      "dependencies": {
+        "stripe_ios/stripe_objc": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
+}

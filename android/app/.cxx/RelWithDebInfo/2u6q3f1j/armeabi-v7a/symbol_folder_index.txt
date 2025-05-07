@@ -1,0 +1,1 @@
+/Users/nikitabhanderi/shivani/reskinning/eClassify/Jumli-full-reskin/jumli_update_version_code_V2.5.0/build/app/intermediates/cxx/RelWithDebInfo/2u6q3f1j/obj/armeabi-v7a

@@ -1,0 +1,2 @@
+/Users/nikitabhanderi/shivani/reskinning/eClassify/Jumli-full-reskin/jumli_update_version_code_V2.5.0/android/app/.cxx/Debug/53p2o625/x86_64/CMakeFiles/edit_cache.dir
+/Users/nikitabhanderi/shivani/reskinning/eClassify/Jumli-full-reskin/jumli_update_version_code_V2.5.0/android/app/.cxx/Debug/53p2o625/x86_64/CMakeFiles/rebuild_cache.dir

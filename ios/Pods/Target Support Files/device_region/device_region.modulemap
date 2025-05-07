@@ -1,0 +1,6 @@
+framework module device_region {
+  umbrella header "device_region-umbrella.h"
+
+  export *
+  module * { export * }
+}

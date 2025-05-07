@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/System/Volumes/Data/fluttersdk/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/nikitabhanderi/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/nikitabhanderi/shivani/reskinning/eClassify/Jumli-full-reskin/jumli_update_version_code_V2.5.0/android/app/.cxx/Debug/53p2o625/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/nikitabhanderi/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/nikitabhanderi/shivani/reskinning/eClassify/Jumli-full-reskin/jumli_update_version_code_V2.5.0/android/app/.cxx/Debug/53p2o625/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
